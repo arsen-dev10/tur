@@ -43,7 +43,7 @@ const [language, setLanguage] = useState('ru');
 - `setLanguage` — функция, меняющая это значение.
 - `useState('ru')` — начальное значение.
 
-Пример кнопок языка:
+Пример кнопок языка:  
 
 ```jsx
 <button onClick={() => setLanguage('ru')}>RU</button>
